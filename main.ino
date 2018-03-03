@@ -11,7 +11,7 @@ LiquidCrystal_I2C lcd(0x3F,16,2);
 
 
 const byte numberButtonsPins = 5;
-const int buttonPins[numberButtonsPins]={a,b,c,d,e};
+const int buttonPins[numberButtonsPins]={a,b,c,d,get_x};
 
 void void setup()
 {
